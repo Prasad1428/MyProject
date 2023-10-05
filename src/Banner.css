@@ -1,0 +1,77 @@
+.banner{
+    background-color: rgb(224, 234, 246);
+    margin:0;
+}
+.banner-content{
+    padding: 40px;
+    padding-bottom: 10px;
+}
+#banner-title {
+    color: rgb(44, 75, 102);
+    font-size:3.5rem;
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10px; 
+  }
+#banner-para{
+    color: rgb(101, 160, 212);
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    margin-bottom: 10px; 
+    margin-top: 20%;
+}
+ 
+#banner-para {
+    font-size: 16px;
+    display: block;
+  }
+#man-img{
+    float: right;
+    margin-right: 50px;
+    max-width: 400px;
+    max-height: 20%;
+    object-fit: fill;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.banner-bt1 ,.banner-bt2{
+    position: relative;
+    top:400px;
+    right:400px;
+}
+.banner-bt2{
+    background-color: none;
+    background-color: rgb(78, 91, 163);
+    margin: 5px;
+    color: white;
+}
+.banner-bt2:hover{
+    background-color: rgb(224, 234, 246);
+    color:black;
+
+}
+#background-img{
+    width: 100%;
+    height: auto;
+}
+#analytic-img{
+    width: 220px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+    top:275px;
+    left: 400px;
+    background-color: white;
+}
+#zigzag-img{
+    width:200;
+    z-index: 2;
+    position: relative;
+    top:275px;
+    left: 450px;
+    
+}

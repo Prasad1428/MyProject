@@ -1,0 +1,111 @@
+.last {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 10%;
+  }
+  
+  .custom-datatable {
+    background-color: #f2f2f2;
+    max-width: 350px;
+    overflow: hidden;
+    border: 2px solid rgb(152, 163, 230);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Laila';
+    font-weight: 600;
+    margin-left: 100px;
+  }
+  
+  .custom-datatable .rdt_TableHead .rdt_TableHeadRow {
+    background-color: rgb(90, 106, 197);
+    color: #fff !important;
+  }
+  
+  .custom-datatable .rdt_TableBody .rdt_TableRow:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .image-container {
+    flex: 1; 
+    text-align: right; 
+    margin-right: 220px; 
+  }
+  
+  .woman-image {
+    max-width: 85%;
+    height: auto; 
+    border-radius: 10px;
+    margin-left: 400px;
+  }
+  .seatReport{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    color: rgb(44, 75, 102);
+    font-family:'Laila';
+    font-size:1rem;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+    right: 400px;
+    line-height: 50px;
+    top:100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .seatReport .btn{
+    border-radius: 25px;
+  }
+  .color-circles {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+  }
+  
+ 
+  .color-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+  .color-circle:hover{
+    border: solid 0.5px rgb(141, 194, 247);
+  }
+  
+  .red {
+    background-color: rgb(239, 134, 169);
+    width: 24px;
+    height: 24px;
+  }
+  
+  .yellow {
+    background-color: rgba(233, 249, 155, 0.921);
+  }
+  
+  .blue {
+    background-color: rgb(127, 184, 244);
+  }
+  
+  .violet {
+    background-color: rgb(176, 123, 208);
+  }
+  .report-title{
+    font-size:1.5rem;
+    font-weight: 600;
+    text-wrap:wrap;
+
+  }
+  #zigzag3{
+    width: 175px;
+    position: relative;
+    right:220px;
+    top:200px;
+    z-index: 3;
+
+  }

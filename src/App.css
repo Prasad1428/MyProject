@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  padding:0;
+  margin:0;
+  animation: fadeIn 2s;
+}
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.sticky-social-media-box .btn{
+  max-width: 200px;
+  font-size: 1rem;
+  background-color:white;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  float:right;
+  right:20px;
+  position: fixed;
+  z-index: 999;
+  opacity:0.7;
+}
+.sticky-social-media-box .btn:active{
+  background-color: white;
+  color:black;
+}
+.sticky-social-media-box .dropdown-item:active{
+  background-color: white;
+  color:black;
+}
+.sticky-social-media-box:hover{
+  opacity: 2;
+}
+.logo{
+  margin:5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+

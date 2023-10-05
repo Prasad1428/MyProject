@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    font-family: 'Laila';
+    background-color: rgb(224, 234, 246);
+    margin: 0;
+    padding: 10px; 
+  }
+  
+  .nav-item {
+    display: inline-block;
+    font-size: small;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .nav-item:hover{
+    font-weight: 800;
+  }
+  #brand-logo {
+    color: rgb(44, 75, 102);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+  }
+  .btns{
+    position: relative;
+    left:650px;
+  
+  }
+  .navbar-bt1 ,.navbar-bt2{
+    cursor: pointer;
+    z-index: 4;
+}
+.navbar-bt2{
+    background-color: rgb(78, 91, 163);
+    margin: 5px;
+    color: white;
+}
+.navbar-bt2:hover,.navbar-bt2:active,.navbar-bt1:active{
+    background-color: rgb(224, 234, 246);
+    color:black;
+
+}
+  
+

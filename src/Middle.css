@@ -1,0 +1,67 @@
+
+.middle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.middleContent {
+  padding: 40px;
+  padding-top: 10%;
+  position: relative;
+}
+
+#woman1 {
+  max-width: 30%;
+  float: left;
+  margin-right:10% ;
+  border-radius: 25px;
+}
+
+#zigzag4 {
+  max-width: 300px;
+  max-height: 300px;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  z-index: 1;
+}
+
+#zigzag2 {
+  max-width: 300px;
+  max-height: 300px;
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  z-index: 1;
+}
+#graph-title{
+    color: rgb(44, 75, 102);
+    font-family:'Laila';
+    font-size:2rem;
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    top:20%;
+    left:44%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.middle-btn{
+    position: relative;
+    right: 330px;
+    top: 25px;
+    background-color: rgb(90, 106, 197);
+    margin: 5px;
+    color: white;
+    border: none;
+
+}
+.middle-btn:hover{
+    background-color: rgb(224, 234, 246);
+    color:black;
+
+}
